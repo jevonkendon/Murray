@@ -10,7 +10,7 @@ async function testCoke() {
     console.error("Error status code");
   }
 
-  const expected = { type: 'Coke', price: '5.5', currency: 'NZDa' };
+  const expected = { type: 'Coke', price: '5.5', currency: 'NZD' };
   const actual = response.data;
 
   if (JSON.stringify(expected) !== JSON.stringify(actual)) {
